@@ -35,9 +35,9 @@ exports.productCreate = async function (req, res, next) {
         if (!category) {
             throw new Error("category is required");
         }
-        if (!rating) {
-            throw new Error("rating is required");
-        }
+        // if (!rating) {
+        //     throw new Error("rating is required");
+        // }
         if (!highestPurchase) {
             throw new Error("highestPurchase is required");
         }
